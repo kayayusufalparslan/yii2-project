@@ -26,7 +26,7 @@ Modülü kullanmak için "vagrant" makine içerisinden "advanced" klasörümüz�
             
                  ],
        
-                ],
+            ],
     
 //Bu kod parçacığını ekliyoruz. 
 
