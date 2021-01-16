@@ -22,4 +22,3 @@ Artık modülümüz kullanıma hazır durumdadır.
 Modüle erişebilmek için;  //Burada backend kısmına ekledim modülü, işlemler oradan gösterilecektir.
 URL = http://advanced/backend/web/index.php?r=project  
 Buradan, modülümüze erişebiliriz artık.
-
