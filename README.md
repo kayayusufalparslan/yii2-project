@@ -16,7 +16,9 @@ Modülü kullanmak için "vagrant" makine içerisinden "advanced" klasörümüz�
 
 //Modülü nerede kullanmak istiyorsak (frontend-backend-tüm proje), o kısmın  "config" dosyasının içinden "main.php" klasörümüze gidiyoruz.
 
-3-) 'modules' => [
+3-) 
+
+'modules' => [
 
         'project' => [
         
