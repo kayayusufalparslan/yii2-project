@@ -18,15 +18,15 @@ Modülü kullanmak için "vagrant" makine içerisinden "advanced" klasörümüz�
 
 3-) 
 
-'modules' => [
+        'modules' => [
 
-        'project' => [
+                'project' => [
         
-            'class' => 'kayayusufalparslan\project\Module',
+                         'class' => 'kayayusufalparslan\project\Module',
             
-        ],
-        
-    ],
+                 ],
+       
+                ],
     
 //Bu kod parçacığını ekliyoruz. 
 
