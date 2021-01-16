@@ -36,7 +36,7 @@ $this->title = $myMemberModel->companyName;
             [
                 'attribute' => 'Company Name ',
                 'value' => function ($model) {
-                    $myMemberModel = \kayayusufalparslan\income\models\Companies::find()->
+                    $myMemberModel = \kayayusufalparslan\project\models\Companies::find()->
                     where(['companyID' => $model->incomeID])->one();
                     return $myMemberModel->companyName;
                 }
