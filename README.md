@@ -5,13 +5,14 @@ Yii2 - Project
 Modülü kullanmak için "vagrant" makine içerisinden "advanced" klasörümüzün içinde yazmamız gereken satırlar;
 
 1-) composer require kayayusufalparslan/yii2-project "dev-main" 
+![composer-require](https://user-images.githubusercontent.com/56241551/104813655-93aecd80-581b-11eb-9d8d-76d2376c0779.png)
+
 
 //Yükleme işlemi tamamlandıktan sonra
 
 2-) php yii migrate -migrationPath=@vendor/kayayusufalparslan/migrations
 
 //Gelen "migrations"'ları uygulamak istiyor musunuz? sorusuna, "yes" yazarak gerekli olan tabloları kuruyoruz.
-
 ![migration-path](https://user-images.githubusercontent.com/56241551/104813508-9eb52e00-581a-11eb-8b93-505c0ee7f644.png)
 
 //Modülü nerede kullanmak istiyorsak (frontend-backend-tüm proje), o kısmın  "config" dosyasının içinden "main.php" klasörümüze gidiyoruz.
