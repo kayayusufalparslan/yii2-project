@@ -8,6 +8,8 @@ Modülü kullanmak için "vagrant" makine içerisinden "advanced" klasörümüz�
 //Yükleme işlemi tamamlandıktan sonra
 2-) php yii migrate -migrationPath=@vendor/kayayusufalparslan/migrations
 //Gelen "migrations"'ları uygulamak istiyor musunuz? sorusuna, "yes" yazarak gerekli olan tabloları kuruyoruz.
+![migration-path](https://user-images.githubusercontent.com/56241551/104813508-9eb52e00-581a-11eb-8b93-505c0ee7f644.png)
+
 //Modülü nerede kullanmak istiyorsak (frontend-backend-tüm proje), o kısmın  "config" dosyasının içinden "main.php" klasörümüze gidiyoruz.
 3-) 'modules' => [
         'project' => [
